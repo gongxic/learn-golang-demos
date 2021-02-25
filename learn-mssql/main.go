@@ -1,9 +1,12 @@
 package main
 
 import (
-	"learn/dbtest"
+	"fmt"
+	"learnmssql/dbtest"
 )
 
 func main() {
+
 	dbtest.PrintMssql()
+	fmt.Print("ss")
 }

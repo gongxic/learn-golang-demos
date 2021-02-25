@@ -1,5 +1,5 @@
-module learn
+module learnmssql
 
-go 1.15
+go 1.16
 
-require github.com/denisenkom/go-mssqldb v0.9.0
+require github.com/denisenkom/go-mssqldb v0.9.0 // indirect
